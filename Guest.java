@@ -6,4 +6,9 @@ public class Guest extends Pelanggan {
         super(firstName, lastName, noHP);
         this.member = false;
     }
+
+    public Guest(String firstName, String noHP) {
+        super(firstName, "", noHP);
+        this.member = false;
+    }
 }
